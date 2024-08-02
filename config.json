@@ -1,0 +1,48 @@
+{
+  "id": "lexiconman.tracks",
+  "author": {
+    "name": "Juan",
+    "discordUsername": "juanpprieto",
+    "email": "jpprietobaez@gmail.com"
+  },
+  "actions": [
+    {
+      "id": "tracks.delete.characters",
+      "name": "Delete field characters",
+      "description": "Deletes a number of characters from a chosen field",
+      "config": {
+        "permissions": {
+          "track": {
+            "read": [
+              "selected"
+            ],
+            "modify": [
+              "selected"
+            ],
+            "modifyFields": [
+              "title",
+              "artist",
+              "albumTitle",
+              "label",
+              "remixer",
+              "mix",
+              "composer",
+              "producer",
+              "grouping",
+              "lyricist",
+              "comment",
+              "key",
+              "genre",
+              "extra1",
+              "extra2"
+            ]
+          }
+        },
+        "settings": {
+          "Direction": "left-to-right",
+          "Characters to remove": "1"
+        }
+      }
+    }
+  ]
+}
