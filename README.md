@@ -18,7 +18,7 @@ git clone https://github.com/juanpprieto/lexiconman.tracks.git ~/Documents/Lexic
 Remove a `number` of `characters` from any supported track field. You can configure the plugin to remove from beginning or the end.
 
 #### Settings
-
+| -------- | ------- | ---------- |
 | Setting | options | Description |
 | Direction | "left-to-right" (default) or "right-to-left" | The direction to delete characters from |
 | Characters to remove | integer (1 default) | The number of characters to remove |
