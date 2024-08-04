@@ -15,21 +15,19 @@ git clone https://github.com/juanpprieto/lexiconman.tracks.git ~/Documents/Lexic
 
 ### Delete field characters / tracks.delete.characters
 
-Remove a number of characters from any of a track field.
+Remove a `number` of `characters` from any supported track field. You can configure the plugin to remove from beginning or the end.
 
 #### Settings
 
-#####  Direction
+| Setting | options | Description |
+| Direction | "left-to-right" (default) or "right-to-left" | The direction to delete characters from |
+| Characters to remove | integer (1 default) | The number of characters to remove |
 
-The direction to delete characters from. options:
- - "left-to-right" (default)
- - "right-to-left"
+#### Target field
 
-#####  Characters to remove
+The target field is chosen via a prompt when running the plugin
 
-The number of characters to remove. 1 (default)
-
-#### Supported fields
+##### Supported fields
  - "title",
  - "artist",
  - "albumTitle",
@@ -46,5 +44,5 @@ The number of characters to remove. 1 (default)
  - "extra1",
  - "extra2"
 
-The target field is chosen via a prompt.
+
 
