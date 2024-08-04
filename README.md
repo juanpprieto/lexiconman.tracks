@@ -46,4 +46,9 @@ The target field is chosen via a prompt when running the plugin
  - "extra2"
 
 
+## Have an idea for a plugin?
+
+This repo is exclusive for plugins aiming to solve `track` related workflows in LexiconDJ.
+
+If you have an idea open an issue and I can look into it when time allows.
 
