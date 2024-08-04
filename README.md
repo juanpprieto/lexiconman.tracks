@@ -13,7 +13,7 @@ git clone https://github.com/juanpprieto/lexiconman.tracks.git ~/Documents/Lexic
 
 ## Plugins
 
-### Delete field characters / tracks.delete.characters
+### Delete field characters
 
 Remove a `number` of `characters` from any supported track field. You can configure the plugin to remove from beginning or the end.
 
