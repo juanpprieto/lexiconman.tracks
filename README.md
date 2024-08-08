@@ -15,7 +15,7 @@ Windows (untested)
 
 Open the terminal and run the following command
 ```bash
-git clone https://github.com/juanpprieto/lexiconman.tracks.git /Documents/Lexicon/Plugins/Lexiconman\ Tracks
+git clone https://github.com/juanpprieto/lexiconman.tracks.git C:\Users\[YOUR-USER]Documents\Lexicon\Plugins\Lexiconman Tracks
 ```
 
 ## Plugins
