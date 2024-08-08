@@ -1,13 +1,8 @@
-name: Create Release
-on:
-  push:
-    tags:
-      - "*"
+name: Create Archive
+on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
       - uses: actions/checkout@master
       - name: Archive Release
@@ -16,10 +11,3 @@ jobs:
           type: "zip"
           filename: "release.zip"
           exclusions: "*.git* /*node_modules/* .editorconfig"
-
-      - uses: actions/checkout@v3
-      - name: Upload Release
-        uses: ncipollo/release-action@v1
-        with:
-          artifacts: "release.zip"
-          token: ${{ secrets.GITHUB_TOKEN }}
