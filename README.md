@@ -11,6 +11,13 @@ Open the terminal and run the following command
 git clone https://github.com/juanpprieto/lexiconman.tracks.git ~/Documents/Lexicon/Plugins/Lexiconman\ Tracks
 ```
 
+In Windows
+
+Open the terminal and run the following command (untested)
+```bash
+git clone https://github.com/juanpprieto/lexiconman.tracks.git /Documents/Lexicon/Plugins/Lexiconman\ Tracks
+```
+
 ## Plugins
 
 ### Delete field characters
