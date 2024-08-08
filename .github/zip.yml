@@ -1,14 +1,11 @@
 name: Create Release
-
 on:
   push:
     tags:
       - "*"
-
 jobs:
   build:
     runs-on: ubuntu-latest
-
     permissions:
       contents: write
     steps:
@@ -19,8 +16,9 @@ jobs:
           type: "zip"
           filename: "release.zip"
           exclusions: "*.git* /*node_modules/* .editorconfig"
+
       - uses: actions/checkout@v3
-      - name: Upload Release    
+      - name: Upload Release
         uses: ncipollo/release-action@v1
         with:
           artifacts: "release.zip"
